@@ -146,12 +146,12 @@
 ~
 	\smartdiagram[bubble diagram]{
         \textbf{~~~~~~IT~~~~~~},
-        \textbf{Algorithms},
+        \textbf{Algoritmy},
         \textbf{~~~~OOP~~~~~},
-        \textbf{Inheritance},
+        \textbf{Dědičnost},
         \textbf{~~~~~Git~~~~~},
         \textbf{~~~~~MVC~~~~~},
-        \textbf{Logical}\\\textbf{thinking}
+        \textbf{Logické}\\\textbf{uvažování}
     }
 }
 
@@ -228,13 +228,13 @@
 
     %------------------------------------------------
         
-        \profilesection{Skills}{4cm}
+        \profilesection{Dovednosti}{2cm}
 
     	\skills
         
         %------------------------------------------------
         
-        \profilesection{Languages}{2.4cm} 
+        \profilesection{Programovací jazyky}{0cm} 
         
 		\interests{{\LaTeX{}, Bash \& others  /2.7},{C++  /3.5},{Python/4},{Java/4.3},{C \#/5}}
         
