@@ -145,13 +145,13 @@
 \newcommand\skills{ 
 ~
 	\smartdiagram[bubble diagram]{
-        \textbf{Full Stack}\\\textbf{Dev},
-        \textbf{Relational/}\\\textbf{Document}\\\textbf{Databases},
+        \textbf{~~~~~~IT~~~~~~},
+        \textbf{Algorithms},
         \textbf{~~~~OOP~~~~~},
-        \textbf{Mobile}\\\textbf{Dev},
-        \textbf{Machine}\\\textbf{Learning},
-        \textbf{Test}\\\textbf{~~Automation~~},
-        \textbf{Statistical}\\\textbf{Analysis}
+        \textbf{Inheritance},
+        \textbf{~~~~~Git~~~~~},
+        \textbf{~~~~~MVC~~~~~},
+        \textbf{Logical}\\\textbf{thinking}
     }
 }
 
@@ -210,7 +210,7 @@
               \end{array}
               $} 
             & \cvnumberphone\\}
-      \ifthenelse{\equal{\href{\cvsite}{\cvsite}}{}}{}{
+      \ifthenelse{\equal{\cvsite}{}}{}{
             {$
               \begin{array}{l}
               {\href{\cvsite}{\includegraphics[scale=0.05]{img/globe-512.png}}}
@@ -234,18 +234,20 @@
         
         %------------------------------------------------
         
-        \profilesection{Interests}{3cm} 
+        \profilesection{Languages}{2.4cm} 
         
-		\interests{{Data Mining \& Statistical Analysis/5},{Software Development/5.8},{Cryptography/4.3},{UI Design/4},{Cloud Computing/5}}
+		\interests{{\LaTeX{}, Bash \& others  /2.7},{C++  /3.5},{Python/4},{Java/4.3},{C \#/5}}
         
         \interests
         
+	\iffalse
         \profilesection{Languages}{2.4cm} 
         {$
               \begin{array}{l}
               \hspace{-2mm}{\includegraphics[scale=0.45]{img/languages_muted.png}}
               \end{array}
-        $}   
+        $}
+	\fi
   \end{textblock}
 }
 
@@ -258,6 +260,7 @@
 \newcommand*\round[2]{%
 	\tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle, rounded corners, inner sep=1.6pt, minimum size=5.5mm, text height=3.6mm, fill=#2,#2,text=white](char){#1};%
 }
+
 
 \def\@sectioncolor#1#2#3{%
 	{%
