@@ -1,2 +1,2 @@
 # CV
-There will be my cv for a work or grigade
+There will be my cv for a work or brigade
